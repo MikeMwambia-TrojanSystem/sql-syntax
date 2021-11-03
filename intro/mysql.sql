@@ -281,7 +281,8 @@ SELECT author_fname AS 'First',author_lname AS 'Last' , CONCAT (author_fname,' '
 SELECT CONCAT_WS('-',title,author_fname,author_lname) FROM books;
 
 --SubString
-SELECT SUBSTRING(<columnname>,<startIndex>,<endIndex>) FROM ,<tablename>;
+SELECT SUBSTRING(<columnname>,<startIndex>,<endIndex>) 
+FROM ,<tablename>;
 
 SELECT SUBSTRING(title,1,10) AS 'Short title' FROM books;
 
